@@ -1,8 +1,9 @@
 //your JS code here. If required.
 function getFormvalue() {
-  let fn = document.myform.fname.value;
-  let ln = document.myform.lname.value;
-  let number = document.myform.phone.value;
-  let email = document.myform.mail.value;
+  let fn = document.querySelector('input[name="First Name"]').value;
+  let ln = document.querySelector('input[name="Last Name"]').value;
+  let number = document.querySelector('input[name="Phone Number"]').value;
+  let email = document.querySelector('input[name="Email ID"]').value;
+	
   alert("First Name: "+fn+"\nLast Name : "+ln+"\nPhone Number: "+number+"\nEmail ID: "+email);
 }
