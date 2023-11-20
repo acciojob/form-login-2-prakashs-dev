@@ -5,5 +5,5 @@ function getFormvalue() {
   let number = document.querySelector('input[name="Phone Number"]').value;
   let email = document.querySelector('input[name="Email ID"]').value;
 	
-  alert("First Name: "+fn+"\nLast Name : "+ln+"\nPhone Number: "+number+"\nEmail ID: "+email);
+  alert("First Name: "+fn+"Last Name : "+ln+"Phone Number: "+number+"Email ID: "+email);
 }
